@@ -5,7 +5,7 @@ from uwu import uwufied
 
 load_dotenv() # load all the variables from the env file
 
-bot = discord.Bot(os.getenv('GUILD'))
+bot = discord.Bot(debug_guilds=[os.getenv('GUILD')])
 
 @bot.event
 async def on_ready():

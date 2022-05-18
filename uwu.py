@@ -37,5 +37,5 @@ def uwufied(text, stuttering):
 
 
     # print(text.translate(str.maketrans(''.join(UWU_WORDS.keys()), ''.join(UWU_WORDS.values()))))
-    # print(stuterring_converted)
+    print(stuterring_converted)
     return stuterring_converted

@@ -1,4 +1,5 @@
 import random
+import re
 
 """Credit goes to
 https://github.com/python-discord/sir-lancebot/commit/0794f26ea267c355e106366a1226f3e986a682fc
